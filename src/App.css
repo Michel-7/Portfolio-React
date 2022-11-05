@@ -10,6 +10,9 @@ body {
   overflow-x: hidden;
 }
 @media only screen and (max-width: 650px) {
+  .home > div {
+    margin-top: -400px !important;
+  }
   .nav-bar ul {
     font-size: 14px;
   }
@@ -183,7 +186,8 @@ li:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("../public/images/home-image.906ecae3d8ec45b3070b (1).jpg");
+  /* background-image: url("../public/images/home-image.906ecae3d8ec45b3070b (1).jpg"); */
+  background-color: lightblue;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
