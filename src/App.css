@@ -16,9 +16,9 @@ body {
   .nav-bar ul {
     font-size: 14px;
   }
-  /* .home {
-    background-image: url("../public/images/home-image-mobile.jpg") !important;
-  } */
+  .home {
+    background-image: url("../public/images/ganapathy-kumar-7782WXBriyM-unsplash (2).jpg") !important;
+  }
   .home .title {
     margin-top: 200px;
   }
@@ -186,7 +186,7 @@ li:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-image: url("../public/images/home-image.906ecae3d8ec45b3070b (1).jpg"); */
+  background-image: url("../public/images/ganapathy-kumar-7782WXBriyM-unsplash.jpg");
   background-color: lightblue;
   background-size: cover;
   background-repeat: no-repeat;
@@ -197,6 +197,7 @@ li:hover {
 }
 .home > div {
   margin-top: -200px;
+  margin-left: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
