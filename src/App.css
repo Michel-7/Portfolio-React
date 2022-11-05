@@ -13,9 +13,9 @@ body {
   .nav-bar ul {
     font-size: 14px;
   }
-  .home {
+  /* .home {
     background-image: url("../public/images/home-image-mobile.jpg") !important;
-  }
+  } */
   .home .title {
     margin-top: 200px;
   }
@@ -183,7 +183,7 @@ li:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("../public/images/home-image.jpg");
+  background-image: url("../public/images/home-image.906ecae3d8ec45b3070b (1).jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
