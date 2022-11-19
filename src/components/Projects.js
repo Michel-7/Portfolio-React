@@ -20,11 +20,11 @@ function Projects() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="zoomIn" delay={300} animateOnce="true">
           <Project
-            image="./images/amazone-clone sc.png"
-            title="Amazone-clone:"
-            info="Built with ReactJs,Styled Attributes and FireBase"
-            websiteLink="https://michel-7.github.io/Amazone-Clone/"
-            githubLink="https://github.com/Michel-7/Amazone-Clone.git"
+            image="./images/Screenshot (103).png"
+            title="Android Gym App:"
+            info="Built with AndroidStudio, java, php, mysql and wamp server."
+            websiteLink="#"
+            githubLink="https://github.com/Michel-7/Gym_AndroidApp"
           />
         </ScrollAnimation>
         <ScrollAnimation animateIn="zoomIn" delay={600} animateOnce="true">

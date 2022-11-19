@@ -70,6 +70,7 @@ function Skills(props) {
           <div className="tech">
             <ul>
               <li>C++</li>
+              <li>Java</li>
               <li>GitHub</li>
               <li>VsCode</li>
               <li>NPM</li>

@@ -39,7 +39,7 @@ export default function Resume() {
               Developing and integrating MySql Databases using PHP and XTND's
               CMS.
             </li>
-            <li>Worked on a QR-Scanner System for a cafeteria.</li>
+            <li>Developed a QR-Scanner System for a cafeteria.</li>
           </ul>
           <span className="work-contact">
             Contact : Roy naufal - Email: roy.naufal@xtnd.io
