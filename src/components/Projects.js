@@ -20,6 +20,15 @@ function Projects() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="zoomIn" delay={300} animateOnce="true">
           <Project
+            image="./images/Screenshot (127).png"
+            title="Web Chat App:"
+            info="Built with ReactJs, Node and socket.io"
+            websiteLink="https://chat-app-7.netlify.app/"
+            githubLink="https://github.com/Michel-7/Chat-App"
+          />
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="zoomIn" delay={600} animateOnce="true">
+          <Project
             image="./images/Screenshot (103).png"
             title="Android Gym App:"
             info="Built with AndroidStudio, java, php, mysql and wamp server."
@@ -27,15 +36,7 @@ function Projects() {
             githubLink="https://github.com/Michel-7/Gym_AndroidApp"
           />
         </ScrollAnimation>
-        <ScrollAnimation animateIn="zoomIn" delay={600} animateOnce="true">
-          <Project
-            image="./images/Screenshot (5).png"
-            title="Belvedere-Website:"
-            info="Built with ReactComponents and React Router"
-            websiteLink="https://belvedere-vodka.netlify.app/"
-            githubLink="https://github.com/Michel-7/Belvedere"
-          />
-        </ScrollAnimation>
+
         <ScrollAnimation animateIn="zoomIn" delay={900} animateOnce="true">
           <Project
             image="./images/tic-tac-toe sc.png"

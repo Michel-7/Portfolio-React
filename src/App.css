@@ -25,6 +25,9 @@ body {
   .home .title p {
     font-size: 14px;
   }
+  .nav-bar {
+    height: 6% !important;
+  }
   .home .name {
     font-size: 35px;
   }
@@ -149,7 +152,7 @@ body {
 }
 .nav-bar {
   width: 100%;
-  height: 5%;
+  height: 8%;
   position: fixed;
   display: flex;
   justify-content: center;

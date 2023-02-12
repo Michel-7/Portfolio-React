@@ -32,14 +32,13 @@ export default function Resume() {
           <p>Achievements/Tasks:</p>
           <ul>
             <li>
-              Developing and Maintaining Websites and Web Applications based on
+              Developed and maintained Websites and Web Applications based on
               Figma and Adobe xd designs.
             </li>
             <li>
-              Developing and integrating MySql Databases using PHP and XTND's
-              CMS.
+              Designed and integrated MySQL databases using PHP and xtnd's CMS.
             </li>
-            <li>Developed a QR-Scanner System for a cafeteria.</li>
+            <li>Built a QR-Scanner System for a cafeteria.</li>
           </ul>
           <span className="work-contact">
             Contact : Roy naufal - Email: roy.naufal@xtnd.io
