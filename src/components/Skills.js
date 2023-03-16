@@ -45,7 +45,7 @@ function Skills(props) {
           </div>
           <div className="tech">
             <ul>
-              <li>Php</li>
+              <li>Laravel</li>
               <li>NodeJs</li>
               <li>Express</li>
               <li>MySql</li>

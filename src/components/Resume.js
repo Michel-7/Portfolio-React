@@ -32,11 +32,14 @@ export default function Resume() {
           <p>Achievements/Tasks:</p>
           <ul>
             <li>
-              Developed and maintained Websites and Web Applications based on
-              Figma and Adobe xd designs.
+              Developed and maintained Websites, Web Applications and Mobile
+              Apps based on Figma and AdobeXD designs using a variety of
+              technologies including Jquery, Bootstrap, ReactJs and React
+              Native.
             </li>
+            <li>Developed and Debugged REST Apis using Laravel</li>
             <li>
-              Designed and integrated MySQL databases using PHP and xtnd's CMS.
+              Designed and integrated MySQL databases using PHP and XTND's CMS.
             </li>
             <li>Built a QR-Scanner System for a cafeteria.</li>
           </ul>
