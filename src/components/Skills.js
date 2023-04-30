@@ -21,11 +21,10 @@ function Skills(props) {
           </div>
           <div className="tech">
             <ul>
-              <li>HTML5</li>
-              <li>CSS3</li>
-              <li>JavaScript</li>
+              <li>HTML5 | CSS3 | JavaScript</li>
               <li>JQuery</li>
               <li>ReactJS</li>
+              <li>React Native</li>
               <li>Bootstrap</li>
             </ul>
           </div>
@@ -47,10 +46,10 @@ function Skills(props) {
             <ul>
               <li>Laravel</li>
               <li>NodeJs</li>
+              <li>ASP.NET</li>
               <li>Express</li>
               <li>MySql</li>
               <li>MongoDb</li>
-              <li>FireBase</li>
             </ul>
           </div>
         </div>
@@ -75,8 +74,8 @@ function Skills(props) {
               <li>VsCode</li>
               <li>NPM</li>
               <li>Unix</li>
-              <li>UML</li>
               <li>FTP</li>
+              <li>SSH</li>
             </ul>
           </div>
         </div>

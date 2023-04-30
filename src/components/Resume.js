@@ -32,16 +32,26 @@ export default function Resume() {
           <p>Achievements/Tasks:</p>
           <ul>
             <li>
-              Developed and maintained Websites, Web Applications and Mobile
-              Apps based on Figma and AdobeXD designs using a variety of
-              technologies including Jquery, Bootstrap, ReactJs and React
-              Native.
+              Developed user interfaces based on Figma and AdobeXD designs while
+              aiming for a smooth user experience and ensuring cross-browser
+              compatibility as well as mobile responsiveness.
             </li>
-            <li>Developed and Debugged REST Apis using Laravel</li>
+
+            <li>Developed and Debugged REST Apis using Laravel.</li>
             <li>
-              Designed and integrated MySQL databases using PHP and XTND's CMS.
+              Designed and integrated MySQL databases using PHP and xtnd's CMS.{" "}
             </li>
-            <li>Built a QR-Scanner System for a cafeteria.</li>
+            <li>Built a QR-Scanner System for a cafeteria using PHP.</li>
+            <li>Migrating existing websites to Wordpress. </li>
+            <li>
+              Created a Custom Admin Menu in Wordpress that allows users to
+              modify and edit a custom-theme based website.
+            </li>
+            <li>Developing native mobile applications using React Native.</li>
+            <li>
+              Helping and Assisting clients in resolving their queries quickly
+              and effectively.
+            </li>
           </ul>
           <span className="work-contact">
             Contact : Roy naufal - Email: roy.naufal@xtnd.io
