@@ -44,12 +44,12 @@ function Skills(props) {
           </div>
           <div className="tech">
             <ul>
+              <li>C++</li>
               <li>Laravel</li>
-              <li>NodeJs</li>
-              <li>ASP.NET</li>
+              <li>NodeJS</li>
               <li>Express</li>
-              <li>MySql</li>
-              <li>MongoDb</li>
+              <li>MySQL</li>
+              <li>MongoDB</li>
             </ul>
           </div>
         </div>
@@ -68,14 +68,14 @@ function Skills(props) {
           </div>
           <div className="tech">
             <ul>
-              <li>C++</li>
-              <li>Java</li>
-              <li>GitHub</li>
+              <li>Git/GitHub</li>
               <li>VsCode</li>
+              <li>GTest</li>
               <li>NPM</li>
               <li>Unix</li>
               <li>FTP</li>
               <li>SSH</li>
+              <li>GDB</li>
             </ul>
           </div>
         </div>

@@ -14,13 +14,13 @@ function About(props) {
         <div className="about-parag">
           <h1>About me </h1>
           <p>
-            Hi, i am a 21 years old software developer and a Computer Science
+            Hi, I am a 22 years old software developer and a Computer Science
             graduate from the Lebanese University.
             <br />I am interested in all Aspects of Computer Software with a
             focus on{" "}
-            <span className="purple"> Full-stack Web Development.</span>
+            <span className="purple"> System and Web apps development.</span>
             <br />
-            Fast learner and in love with the craft, i am always learning
+            Fast learner and in love with the craft, I am always learning
             something new. Excited to take the next step in my journey.
           </p>
           <ScrollAnimation animateIn="fadeInRight" animateOnce="true">
