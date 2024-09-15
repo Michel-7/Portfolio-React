@@ -26,7 +26,7 @@ function About(props) {
           <ScrollAnimation animateIn="fadeInRight" animateOnce="true">
             <div className="download-btn">
               <DownloadIcon />
-              <a href="/files/Michel's Resume.pdf" download>
+              <a href="/files/MichelAoun.pdf" download>
                 Download Resume
               </a>
             </div>

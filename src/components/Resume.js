@@ -15,7 +15,7 @@ export default function Resume() {
           </div>
           <p>
             I Studied at the Lebanese University Faculty of Sciences-II/Fanar.
-            During this period i acquired a variety of technical skills in coding languages, networks, computer theory and architecture, as well as others
+            During this period I acquired a variety of technical skills in coding languages, networks, computer theory and architecture, as well as others
             such as Working with a team, managing a project and writing
             documentation.
           </p>
@@ -24,6 +24,21 @@ export default function Resume() {
       <ScrollAnimation animateIn="fadeInLeft" animateOnce="true">
         <div className="resume-section second">
           <span className="title">Work</span>
+          <div className="resume-section-info">
+            <div className="sub-title">Software engineer at Murex</div>
+            <div className="date">July 2023 - Present</div>
+          </div>
+          <p>Achievements/Tasks:</p>
+          <ul>
+            <li>
+              Developing and maintaining the risk measures module of the MX.3 Platform using C++ while adhering to market standards in both performance and ease of use.
+            </li>
+            <li>Designing and documenting both internal Apis used by other teams and Apis for external clients with a focus on ease of integration.</li>
+            <li>Enriching the MX codeline with unit tests that covers large parts of the module and ensures early detection of bugs and regressions.</li>
+            <li>
+              Contributing to manual and automated functional validations for trade sensitivities and derivatives after new developments.
+            </li>
+          </ul>
           <div className="resume-section-info">
             <div className="sub-title">Full-Stack Developer at XTND</div>
             <div className="date">April 2022 - July 2023</div>
@@ -55,21 +70,7 @@ export default function Resume() {
           <span className="work-contact">
             Contact : Roy naufal - Email: roy.naufal@xtnd.io
           </span>
-          <div className="resume-section-info">
-            <div className="sub-title">Software engineer at Murex</div>
-            <div className="date">July 2023 - Present</div>
-          </div>
-          <p>Achievements/Tasks:</p>
-          <ul>
-            <li>
-              Developing and maintaining the risk measures module of the MX.3 Platform using C++ while adhering to market standards in both performance and ease of use.
-            </li>
-            <li>Designing and documenting both internal Apis used by other teams and Apis for external clients with a focus on ease of integration.</li>
-            <li>Enriching the MX codeline with unit tests that covers large parts of the module and ensures early detection of bugs and regressions.</li>
-            <li>
-              Contributing to manual and automated functional validations for trade sensitivities and derivatives after new developments.
-            </li>
-          </ul>
+          
         </div>
       </ScrollAnimation>
     </div>
