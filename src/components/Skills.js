@@ -1,7 +1,11 @@
-import React from "react";
-import ScrollAnimation from "react-animate-on-scroll";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Skills(props) {
+  useEffect(() => {
+    AOS.init({ once: true });
+  }, []);
   return (
     <div className="skills" id="skills">
       <div className="skills-title">Some of my skills</div>
@@ -9,13 +13,11 @@ function Skills(props) {
       <div className="sections">
         <br />
 
-        <div className="content">
+        <div className="content" data-aos="bounce">
           <div className="section-title">
-            <ScrollAnimation animateIn="bounce">
-              <h2>Front-End</h2>
-            </ScrollAnimation>
-            <div className="hr"></div>
+            <h2>Front-End</h2>
           </div>
+          <div className="hr"></div>
           <div className="icon">
             <i className="bi bi-display"></i>
           </div>
@@ -32,13 +34,11 @@ function Skills(props) {
 
         <hr />
 
-        <div className="content">
+        <div className="content" data-aos="tada">
           <div className="section-title">
-            <ScrollAnimation animateIn="tada">
-              <h2>Back-End</h2>
-            </ScrollAnimation>
-            <div className="hr"></div>
+            <h2>Back-End</h2>
           </div>
+          <div className="hr"></div>
           <div className="icon">
             <i className="bi bi-server"></i>
           </div>
@@ -56,13 +56,11 @@ function Skills(props) {
 
         <hr />
 
-        <div className="content">
+        <div className="content" data-aos="bounce">
           <div className="section-title">
-            <ScrollAnimation animateIn="bounce">
-              <h2>Others</h2>
-            </ScrollAnimation>
-            <div className="hr"></div>
+            <h2>Others</h2>
           </div>
+          <div className="hr"></div>
           <div className="icon">
             <i className="bi bi-star-fill"></i>
           </div>
