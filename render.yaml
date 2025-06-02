@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: react-portfolio
-    env: docker
-    repo: https://github.com/Michel-7/Portfolio-React
-    branch: main
-    plan: free
-    autoDeploy: true

@@ -1,17 +1,24 @@
-# .github/workflows/ci.yml
-name: CI - Build Docker Image
+# .github/workflows/ci-cd.yml
+name: CI/CD Pipeline
 
 on:
   push:
     branches: [main]
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 🧾 Checkout repo
+      - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: 🐳 Build Docker image
+      - name: Build Docker image
         run: docker build -t react-portfolio .
+
+      - name: Run tests
+        run: echo "✅ Imagine tests here..."
+
+      - name: Trigger Deploy on Render
+        if: success()
+        run: curl -X POST ${{ secrets.RENDER_DEPLOY_HOOK }}
